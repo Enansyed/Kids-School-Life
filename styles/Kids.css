@@ -73,20 +73,31 @@
     font-weight: 600px;
     color: #FFFFFF;
 }
-.icon{
-    visibility: hidden;
-    color: #111111;
+.Classic{
+    display: none;
 }
 
 
 /* Responsive media query for mobile device */
 @media screen and (max-width:576px) {
-    .nav-item,.kids-title, .navbar-btn {
-        visibility: hidden;
-    }
-    a.icon{
-        width: 32px;
-        height: 32px;
-        color: #111111;
-    }
+   .mobilehidden{
+    display: none;
+   }
+   .Classic{
+    display: block;
+    margin-top: 10px;
+   }
+   .nav-img{
+    width: 46px;
+    height: 46px;
+    /* margin: 0 auto; */
+    margin: 0;
+    padding-bottom: 4px;
+   }
+   .navbar{
+    justify-content: space-between;
+    margin: 0;
+    border-bottom: 1px solid #FEA301;
+    width: 100%;
+   }
 }
