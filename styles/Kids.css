@@ -253,6 +253,15 @@ main{
     grid-template-columns: repeat(1fr);
     margin-left: 20px;
    }
+   .card-1{
+    width: 200px;
+   }
+   .card-2{
+    width: 200px;
+   }
+   .card-3{
+    width: 200px;
+   }
    
    
 }
