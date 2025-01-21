@@ -247,6 +247,9 @@ main{
     width: 96%;
     margin: 20px 10px;
    }
+   .standard{
+    margin-top: -100px;
+   }
    .standard-container{
     max-width: 356px;
     display: grid;
