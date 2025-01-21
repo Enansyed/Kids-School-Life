@@ -13,7 +13,11 @@
   font-style: normal;
 }
 
-
+/* Header related styles */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 
 
@@ -75,6 +79,46 @@
 }
 .Classic{
     display: none;
+}
+
+/* Banner related styles */
+.banner{
+    display: flex;
+    gap: 50px;
+}
+.banner-content{
+    margin-top: 122px;
+    margin-bottom: 122px;
+    margin-left: 120px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #111111;
+}
+.yellow{
+    color: #FEA301;
+}
+.blue{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #111111;
+}
+.banner-btn{
+    padding: 10px 47px;
+    background-color: #111111;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.banner-img{
+    width: 40%;
+    margin-right: 100px;
+    margin-bottom: 90px;
 }
 
 
