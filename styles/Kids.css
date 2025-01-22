@@ -477,10 +477,9 @@ main{
     display: none;
    }
    .story-container2{
-    max-width: 356px;
-    justify-content: end;
+    max-width: 398px;
     gap: 18px;
-    margin-left: -260px;
+    margin-left: -300px;
    } 
    .story-backend{
     width: 150px;  
@@ -490,5 +489,6 @@ main{
    }
    .last-button{
     margin: 100px;
+    margin-left: 60px;
    }
 }
