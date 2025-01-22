@@ -215,7 +215,7 @@ main{
 .story-container{
     display: flex;
     gap: 19px;
-    margin-left: 240px;
+    margin-left: 300px;
 }
 .Story-title{
     text-align: center;
@@ -374,7 +374,7 @@ main{
     border: none;
     font-size: 1.25rem;
     font-weight: 700px;
-    margin: 80px 625px 60px 740px;
+    margin: 80px 625px 60px 780px;
     justify-content: center;
 }
 /* Footer styles */
