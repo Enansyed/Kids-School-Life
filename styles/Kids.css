@@ -383,11 +383,31 @@ main{
     display: flex;
     background-color: #01ACFD;
 }
-.footer-content{
+.footer-img{
+    width: 55px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 100%;
+}
+.footer-header{
+    color: #FFFFFF;
+    width: 206px;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    margin-top: 15px;
+    
+}
+
+.footer-upside{
     display: flex;
+    
 }
 .footer-description{
-    font-size: 1.25rem;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
     width: 400px;
@@ -456,12 +476,18 @@ main{
    .story-reuse{
     display: none;
    }
-   .story-container{
+   .story-container2{
     max-width: 356px;
     justify-content: end;
-    gap: 12px;
-    margin: 100px;
+    gap: 18px;
+    margin-left: -260px;
    } 
+   .story-backend{
+    width: 150px;  
+   }
+   .story-backend-img{
+    width: 150px;
+   }
    .last-button{
     margin: 100px;
    }
